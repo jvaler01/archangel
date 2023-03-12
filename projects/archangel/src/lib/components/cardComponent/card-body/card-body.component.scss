@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  padding: 0 16px;
+  overflow: hidden;
+}
+.card-body-oubita {
+  &.scale {
+    transition: .3s ease-in-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  padding: 16px 16px 0;
+}
+.card-header-text {
+  .header-title {
+    padding-top: 0;
+    line-height: normal;
+    padding: 16px 16px 0;
+    display: block;
+    margin: 0;
+    font-size: 20px;
+  }
+  .header-subtitle {
+    padding-top: 0;
+    line-height: normal;
+    padding: 16px 16px 0;
+    display: block;
+    margin: 0;
+    font-size: 14px;
+  }
+}

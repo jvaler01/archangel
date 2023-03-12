@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-archangel',
+  selector: 'archangel-archangel',
   template: `
     <p>
       archangel works!

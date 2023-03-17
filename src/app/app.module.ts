@@ -3,8 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ArchangelModule } from 'archangel'
-import { CardModule } from 'archangel'
+import { ArchangelModule, ButtonModule, CardModule } from 'archangel'
 
 @NgModule({
   declarations: [
@@ -14,7 +13,8 @@ import { CardModule } from 'archangel'
     BrowserModule,
     AppRoutingModule,
     ArchangelModule,
-    CardModule
+    CardModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,11 +6,10 @@ import { Component, Input, Attribute } from '@angular/core';
   styleUrls: ['./standar.component.scss']
 })
 export class StandarComponent {
-  @Input() outline : boolean = false
-  @Input() color : string = ''
-  constructor(@Attribute('rounded') rounded: boolean){
-    if (rounded) {
-      console.log("parameter rounded passed")
-    }
+  @Input() outline : boolean = false;
+  @Input() color : string = '';
+  ripple: string= '';
+  constructor(@Attribute('rounded') rounded: boolean, @Attribute('ripple') ripple: string){
+    this.ripple = ripple;
   }
 }

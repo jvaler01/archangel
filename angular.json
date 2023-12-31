@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "archangel-workspace:build:production"
+              "buildTarget": "archangel-workspace:build:production"
             },
             "development": {
-              "browserTarget": "archangel-workspace:build:development"
+              "buildTarget": "archangel-workspace:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "archangel-workspace:build"
+            "buildTarget": "archangel-workspace:build"
           }
         },
         "test": {

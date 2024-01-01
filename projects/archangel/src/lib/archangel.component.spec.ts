@@ -8,8 +8,8 @@ describe('ArchangelComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ArchangelComponent ]
-    })
+    imports: [ArchangelComponent]
+})
     .compileComponents();
 
     fixture = TestBed.createComponent(ArchangelComponent);

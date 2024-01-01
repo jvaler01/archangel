@@ -11,6 +11,8 @@ Run `ng generate component component-name --project archangel` to generate a new
 
 Run `ng build archangel` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+Run `ng build archangel --watch` to build the project and keep watching changes.
+
 ## Publishing
 
 After building your library with `ng build archangel`, go to the dist folder `cd dist/archangel` and run `npm publish`.
